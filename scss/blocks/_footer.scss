@@ -1,0 +1,40 @@
+// footer 
+
+.footer .container {
+    background-color: #2C343E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 86px;
+}
+
+.footer {
+    &__lift {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list-navbar {
+        display: flex;
+        align-items: center;
+        margin-left: 70px;
+    }
+
+    &__item-link {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+        margin-left: 33px;
+    }
+
+    &__link-smm {
+        margin-left: 24px;
+    }
+}
+
